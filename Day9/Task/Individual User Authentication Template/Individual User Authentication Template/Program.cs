@@ -1,4 +1,4 @@
-using Individual_User_Authentication_Template.Data;
+﻿using Individual_User_Authentication_Template.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
