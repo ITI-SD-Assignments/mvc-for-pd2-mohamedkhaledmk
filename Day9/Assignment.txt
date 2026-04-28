@@ -1,0 +1,19 @@
+1. Continue with Day8 Assignment (Track-Trainee-Course):
+	
+	- Apply "Identity" in your application (at least "Register, Login, Logout")
+	- Extend IdentityUser class with class named "Client", which have the following properties:
+		- FirstName
+		- LastName
+		- Nationality
+		- EducationLevel
+
+	
+	- Apply "AttributeRouting" & "RoutePrefix" on Track controller 
+	- Apply "Route Constraints" on your actions 
+
+
+2. Create MVC webApp "Individual User Authentication Template" with External Login:
+	
+	- Use Google as External login provider
+	- Use any other provider, such as: (Microsoft, Facebook, Twitter, etc...)
+

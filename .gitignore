@@ -1,0 +1,28 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# Compiled files
+*.dll
+*.exe
+*.pdb
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
