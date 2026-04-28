@@ -1,0 +1,21 @@
+﻿@model IEnumerable<WebApplication2.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="create">Create New</a>
+</p>
+
+<div class="row">
+
+@foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            <partial name="_Card" model="item"/>
+        </div>
+    }
+</div>

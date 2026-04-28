@@ -1,0 +1,15 @@
+﻿@model WebApplication2.Models.Product
+
+<div class="card" style="width: 18rem;">
+    <img src="https://picsum.photos/200" class="card-img-top" alt="@Model.Name">
+    @* <img src="@Model.Image" class="card-img-top" alt="@Model.Name"> *@
+
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <h6 class="card-subtitle mb-2 text-muted">ID: @Model.ID</h6>
+        <p class="card-text">Price: @Model.Price</p>
+
+        <a href="/prds/ShowProduct/@Model.ID" class="btn btn-primary btn-sm">Details</a>
+        <a href="/prds/Delete/@Model.ID" class="btn btn-danger btn-sm">Delete</a>
+    </div>
+</div>
